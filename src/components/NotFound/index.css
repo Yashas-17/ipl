@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: contain;
+}
+@media screen and (min-width: 576px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}
+@media screen and (max-width: 575px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
